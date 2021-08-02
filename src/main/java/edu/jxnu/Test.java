@@ -4,7 +4,8 @@ public class Test {
      private int ID;
      private String value;
 	public int getID() {
-		return ID;
+		System.out.println("left");
+		return ID;		
 	}
 	public void setID(int iD) {
 		ID = iD;
